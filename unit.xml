@@ -1,141 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite id="0" name="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/App.test.js" errors="0" package="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/App.test.js" hostname="localhost" tests="1" failures="1" time="1.086" timestamp="2020-03-14T04:17:20">
-    <properties>
-    </properties>
-    <testcase classname="AppComponent" name="check if parameterState changes" time="0">
-      <failure message="Error: expect(received).toEqual(expected)
-
-Expected value to equal:
-  &quot;age&quot;
-Received:
-  &quot;name&quot;
-    at Object.&lt;anonymous&gt; (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/App.test.js:16:59)
-    at Object.asyncFn (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:38:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/p-map/index.js:46:16
-    at processTicksAndRejections (internal/process/task_queues.js:94:5)" type="AssertionError">
-      </failure>
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="1" name="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Table.test.js" errors="0" package="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Table.test.js" hostname="localhost" tests="4" failures="4" time="1.106" timestamp="2020-03-14T04:17:19">
+  <testsuite id="0" name="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Table.test.js" errors="0" package="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Table.test.js" hostname="localhost" tests="4" failures="0" time="0.825" timestamp="2020-03-14T05:20:57">
     <properties>
     </properties>
     <testcase classname="TableComponent" name="check date comparison" time="0">
-      <failure message="Error: expect(received).toEqual(expected)
-
-Expected value to equal:
-  1
-Received:
-  [Function anonymous]
-
-Difference:
-
-  Comparing two different types of values. Expected number but received function.
-    at Object.&lt;anonymous&gt; (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Table.test.js:24:32)
-    at Object.asyncFn (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:38:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/p-map/index.js:46:16
-    at processTicksAndRejections (internal/process/task_queues.js:94:5)" type="AssertionError">
-      </failure>
     </testcase>
     <testcase classname="TableComponent" name="check name comparison" time="0">
-      <failure message="Error: expect(received).toEqual(expected)
-
-Expected value to equal:
-  1
-Received:
-  [Function anonymous]
-
-Difference:
-
-  Comparing two different types of values. Expected number but received function.
-    at Object.&lt;anonymous&gt; (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Table.test.js:36:32)
-    at Object.asyncFn (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:38:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/p-map/index.js:46:16
-    at processTicksAndRejections (internal/process/task_queues.js:94:5)" type="AssertionError">
-      </failure>
     </testcase>
     <testcase classname="TableComponent" name="check number of rows rendered" time="0">
-      <failure message="Error: expect(received).toEqual(expected)
-
-Expected value to equal:
-  9
-Received:
-  1
-    at Object.&lt;anonymous&gt; (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Table.test.js:42:38)
-    at Object.asyncFn (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:38:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/p-map/index.js:46:16
-    at processTicksAndRejections (internal/process/task_queues.js:94:5)" type="AssertionError">
-      </failure>
     </testcase>
     <testcase classname="TableComponent" name="check random row for sort by name" time="0">
-      <failure message="Error: expect(received).toEqual(expected)
-
-Expected value to equal:
-  {&quot;birth&quot;: &quot;12/31/1990&quot;, &quot;name&quot;: &quot;Hemant Kumar&quot;}
-Received:
-  {&quot;birth&quot;: &quot;01/23/1988&quot;, &quot;name&quot;: &quot;Vivek Ravishankaran&quot;}
-
-Difference:
-
-- Expected
-+ Received
-
-  Object {
--   &quot;birth&quot;: &quot;12/31/1990&quot;,
--   &quot;name&quot;: &quot;Hemant Kumar&quot;,
-+   &quot;birth&quot;: &quot;01/23/1988&quot;,
-+   &quot;name&quot;: &quot;Vivek Ravishankaran&quot;,
-  }
-    at Object.&lt;anonymous&gt; (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Table.test.js:49:55)
-    at Object.asyncFn (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:38:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/p-map/index.js:46:16
-    at processTicksAndRejections (internal/process/task_queues.js:94:5)" type="AssertionError">
-      </failure>
     </testcase>
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="2" name="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Radio.test.js" errors="0" package="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Radio.test.js" hostname="localhost" tests="2" failures="2" time="1.093" timestamp="2020-03-14T04:17:20">
+  <testsuite id="1" name="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Radio.test.js" errors="0" package="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Radio.test.js" hostname="localhost" tests="2" failures="0" time="0.096" timestamp="2020-03-14T05:20:58">
     <properties>
     </properties>
     <testcase classname="RadioComponent" name="check if radio state changes by name" time="0">
-      <failure message="TypeError: radio.props.sortBy is not a function
-    at Object.&lt;anonymous&gt; (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Radio.test.js:18:17)
-    at Object.asyncFn (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:38:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/p-map/index.js:46:16
-    at processTicksAndRejections (internal/process/task_queues.js:94:5)" type="AssertionError">
-      </failure>
     </testcase>
     <testcase classname="RadioComponent" name="check if radio state changes by age" time="0">
-      <failure message="TypeError: radio.props.sortBy is not a function
-    at Object.&lt;anonymous&gt; (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/components/Radio.test.js:25:17)
-    at Object.asyncFn (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:38:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at /Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/node_modules/p-map/index.js:46:16
-    at processTicksAndRejections (internal/process/task_queues.js:94:5)" type="AssertionError">
-      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/App.test.js" errors="0" package="/Users/dee/Documents/Code/Learner/b4afabb0-8ba5-4155-b3a8-624598be6dd7/src/App.test.js" hostname="localhost" tests="1" failures="0" time="0.078" timestamp="2020-03-14T05:20:58">
+    <properties>
+    </properties>
+    <testcase classname="AppComponent" name="check if parameterState changes" time="0">
     </testcase>
     <system-out/>
     <system-err/>
