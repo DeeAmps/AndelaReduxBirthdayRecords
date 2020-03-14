@@ -4,9 +4,9 @@ import {PropTypes} from 'prop-types';
 class Radio extends Component {
 	constructor() {
         super()
-		this.state = {
-			radioClick: "name"
-		};
+      this.state = {
+        radioClick: "name"
+      };
 	}
 
 	onChange(type) {
@@ -17,11 +17,11 @@ class Radio extends Component {
 		return (
   <div className='radioButtons'>
     <div className='left'>
-      <input type='radio' />
+      <input type='radio' onChange={this.onChange(this.state.radioClick)}/>
       <label>&nbsp;&nbsp;Sort by name</label>
     </div>
     <div className='right'>
-      <input type='radio' />
+      <input type='radio' onChange={this.onChange(this.state.radioClick)}/>
       <label>&nbsp;&nbsp;Sort by age</label>
     </div>
   </div>
@@ -31,8 +31,8 @@ class Radio extends Component {
 }
 
 // Uncomment the snippet below
-// Radio.propTypes = {
-// 	sortBy: PropTypes.func
-// }
+Radio.propTypes = {
+	sortBy: PropTypes.func
+}
 
 export default Radio;
