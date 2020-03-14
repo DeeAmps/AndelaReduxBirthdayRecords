@@ -56,10 +56,10 @@ class Table extends Component {
       </thead>
       <tbody>
 		  { this.props.data.map((person) => {
-			<tr>
+			return (<tr>
 				<td>{person.name}</td>
 				<td>{person.birth}</td>
-			</tr>
+			</tr>)
 		  }) }
         
       </tbody>
