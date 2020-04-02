@@ -40,7 +40,6 @@ Table.propTypes = {
 
 function mapStateToProps(state) {
   const initialData = state;
-  console.log(state);
   return { data: initialData };
 }
 

@@ -1,32 +1,22 @@
-import React, {Component} from 'react';
-import Radio from './components/Radio';
-import Table from './components/Table';
+import React, { Component } from "react";
+import Radio from "./components/Radio";
+import Table from "./components/Table";
 
 class App extends Component {
   constructor() {
-      super()
-    this.state = {
-      parameterState: "name"
-    }
-  }
-
-  sortByParameter = (parameter) => {
-    // set state of 'parameterState' here
-    this.setState({ parameterState: parameter })
+    super();
   }
 
   render() {
     return (
-      <div className='container-fluid'>
+      <div className="container-fluid">
         <center>
           <h1>Birthday Records</h1>
         </center>
-        <Radio sortBy={this.sortByParameter}/>
-        <Table sortParameter={this.state.parameterState}/>
+        <Radio />
+        <Table />
       </div>
-);
-
-
+    );
   }
 }
 
